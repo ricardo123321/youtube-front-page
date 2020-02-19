@@ -1,0 +1,260 @@
+  html{
+      margin: 2em 20em;
+      background-color: lightgray;
+  }
+body {
+    font-family: 'Roboto', sans-serif;
+    min-width: 1200px;
+}
+nav {
+    color: #A0A0A0;
+    height: 56px;
+    border-bottom: 1px solid #F9F9F9;
+    background-color: white;
+}
+
+nav ul {
+    display: grid;
+    grid-template-columns: 1fr 3fr 2fr;
+    margin: 0 -10px;
+    list-style: none;
+}
+
+nav li {
+    margin: 10px;
+}
+
+.user {
+    margin-left: auto;
+    position: relative;
+    top: -8.5px;
+    background-color: transparent;
+}
+
+#bars {
+    margin-top: 10px;
+    width: 24px;
+    height: 24px;
+}
+
+#yt {
+    margin-top: 10px;
+    width: 80px;
+    height: 24px;
+}
+
+.search {
+    max-width: 580px;
+    display: grid;
+    grid-template-columns: 6fr 1fr;
+    height: 30px;
+    padding: 0 5px;
+    position: relative;
+    left: 25%;
+}
+
+input[type="search"] {
+    border-radius: 2px 0 0 2px;
+    border: 1px solid rgb(165, 165, 165);
+    padding: 5px 10px;
+    
+}
+
+button .search {
+    border: 1px solid rgb(165, 165, 165);
+    border-radius: 0 3px 3px 0;
+    background-color: #F0F0F0;
+    color: rgb(177, 173, 173);
+}
+
+button:hover {
+    color: rgb(83, 81, 81);
+}
+
+#fa-upload,
+ {
+    color: #A0A0A0;
+    font-size: 5em;
+}
+.logo{
+    position: relative;
+   left: 0;
+   margin: 4px;
+}
+.user button{
+    background-color: blue;
+    color: white;
+    height: 3em;
+    margin: 20px;
+    position: relative;
+    top: -15px;
+}
+    .user i{
+    font-size: 40px;
+    height: 3em;  
+}
+#video-navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 40%;
+    background-color: white;
+}
+#video-navbar li {
+    display: inline;
+}
+#video-navbar button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+#like-dislike {
+    float:right;
+}
+#t-user{
+    float: left;
+    margin-right: 0.5em;
+    margin-top: -0.7em;
+}
+#video-buttons{
+    width: 40%;
+    border-bottom: solid;
+    margin: 0 1em;
+}
+#video-information #views{
+    float: right;
+}
+#video-information h2 {
+    margin-left: 10px;
+}
+.subscribe-view{
+    line-height: 0em;
+    margin-top: 3px;
+    margin-bottom: 4px;
+}
+#video-buttons button{
+    background-color: red;
+    
+
+}
+#video-buttons button span{
+color: white;
+position: relative;;
+bottom: 5px;
+font-size: 1.2em;
+}
+#video-buttons #subscribe-text{
+    position: relative;
+    bottom: 5px;
+    left: -0.35em;
+    border: 0.1em solid;
+    background-color: gray;
+    padding: 0.19em;
+}
+#info {
+    width: 74%;
+    margin-left: 0px;
+    background-color: white;
+}
+#side-section{
+        display: grid;
+        grid-template-columns: auto auto;
+        padding: 10px;
+        float: right;
+        background-color: white;
+        margin-top: 1em;
+        height: 50.24em;
+}
+#video-container{
+    margin-top: 1em;
+}
+#side-section ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.image-title{
+    font-weight: bold;
+    font-size: 1.2em;
+    text-align: center;
+    position: relative;
+    bottom: 4em;
+    left: 1.5em;
+}
+.image-text {
+    font-size: 0.75em;
+    text-align: center;
+    position: relative;
+    bottom: 4em;
+    left: -2.5em;
+}
+#gif {
+    width: 74%;
+    height: 10em;
+    margin-left: 0px;
+    text-align: center;
+    line-height: 10em;
+    background-color: white;
+}
+#gif span {
+    position: relative;
+    bottom: 4px;
+}
+.bottom-navbar li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+.bottom-navbar a {
+    text-decoration: none;
+    color: black;
+}
+.button-text {
+    position: relative;
+    bottom: 5px;
+} 
+#bottom-1 li {
+    margin-left: 1em;
+}
+#bottom-2 li {
+    margin-left: 1em;
+}
+.doesnt-move {
+    margin-left: 0 !important;
+}
+.bigger-button {
+    height: 2.75em;
+    position: relative;
+    bottom: 0.3em;
+}
+#video-information{
+background-color: white;
+width: 74%;
+}
+#auto-info{
+    font-size: 0.5em;
+}
+#bottom-navbars{
+    background-color: white;
+}
+#auto-play-button {
+    width: 4em;
+    position: relative;
+    float: right;
+    bottom: -0.5em;
+}
+#error-icon {
+    position: relative;
+    left: 0em;
+    top: 0.3em;
+}
+#auto-play {
+    position: relative;
+    font-size: 1.6em;
+    left: 10.2em;
+    bottom: 0.6em;
+}
+#bottom-0{
+    border-bottom: solid lightgray;
+}
