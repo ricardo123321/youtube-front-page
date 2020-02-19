@@ -23,85 +23,88 @@
                 </button>
             </li>
             <li class="user">
-                <i class="material-icons" id="fa-upload">get_app</i>
-                <i><button id="sign-btn">Sign in</button></i>
+                <i class="material-icons" class="fa-upload">video_call</i>
+                <i class="material-icons" class="fa-upload">apps</i>
+                <i class="tiny material-icons" class="fa-upload">add_alert</i>
+                <img src="images/video-user.jpeg" id="t-user-icon">
             </li>
         </ul>
 
     </nav>
-    <div id="side-section">
+    <aside>
         <ul>
             <li id="auto-info">
-                <span id="up-next">Up next</span id><span id="auto-play">Autoplay <i  id="error-icon" class="material-icons">error</i></span><img id="auto-play-button" src="images/autoplay.png" alt="">
+                <span id="up-next">Up next</span><span id="auto-play">Autoplay <i  id="error-icon" class="material-icons">error</i></span><img id="auto-play-button" src="images/autoplay.png" alt="">
             </li>
             <li>
-                <img src="images/side-image-1.jpeg">
+                <img src="images/side-image-1.jpeg" alt="1 video suggestion">
                 <span class="image-title">Title</span>
                 <span class="image-text">Some text</span>
             </li>
             <li>
-                <img src="images/side-image-2.jpeg">
+                <img src="images/side-image-2.jpeg" alt=" 2 video suggestion">
                 <span class="image-title">Title</span>
                 <span class="image-text">Some text</span>
             </li>
             <li>
-                <img src="images/side-image-3.jpeg">
+                <img src="images/side-image-3.jpeg" alt=" 3 video suggestion">
                 <span class="image-title">Title</span>
                 <span class="image-text">Some text</span>
             </li>
             <li>
-                <img src="images/side-image-4.jpeg">
+                <img src="images/side-image-4.jpeg" alt=" 4 video suggestion">
                 <span class="image-title">Title</span>
                 <span class="image-text">Some text</span>
             </li>
             <li>
-                <img src="images/side-image-5.jpeg">
+                <img src="images/side-image-5.jpeg" alt=" 5 video suggestion">
                 <span class="image-title">Title</span>
                 <span class="image-text">Some text</span>
             </li>
             <li>
-                <img src="images/side-image-6.jpeg">
+                <img src="images/side-image-6.jpeg" alt="6 video suggestion">
                 <span class="image-title">Title</span>
                 <span class="image-text">Some text</span>
             </li>
             <li>
-                <img src="images/side-image-7.jpeg">
+                <img src="images/side-image-7.jpeg" alt="7 video suggestion">
                 <span class="image-title">Title</span>
                 <span class="image-text">Some text</span>
             </li>
         </ul>
-    </div>
+    </aside>
+    <main>
     <div id="video-container">
         <iframe width="74%" height="315" src="https://www.youtube.com/embed/V74l_zS1x8E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
         </iframe>
     </div>
     <div id="video-information">
         <h2>Contributing to Open Source Part I: The Easy Way</h2>
-        <div id="video-buttons">
-            <img src="images/video-user.jpeg" id="t-user">
-            <a><h4 class="subscribe-view">The Odin Project</h4></a>
-            <button class="subscribe-view"><img src="images/suscribe.png"><span>Subscribe</span></button>
-            <span class="subscribe-view" id="subscribe-text">1203 </span>
-            <span id="views">1232 Views</span>             
-        </div>
         <div id="video-navbar-div">
             <ul id="video-navbar">
+                <li><span id="views">1232 Views Feb 27, 2014</span></li>
+                <div id="sharing-btn">
+                    <li id="like-dislike"><button><i class="material-icons">thumb_up</i><span>10</span></button><button><i class="material-icons">thumb_down</i></button></li>
+                <li><button><i class="material-icons">more_horiz</i><span>More</span></button></li>
                 <li><button><i class="material-icons">add</i><span>Add to</span></p></button></li>
                 <li><button><i class="material-icons">reply</i><span>Share</span></button></li>
-                <li><button><i class="material-icons">more_horiz</i><span>More</span></button></li>
-                <li id="like-dislike"><button><i class="material-icons">thumb_up</i></button><button><i class="material-icons">thumb_down</i></button></li>
+            </div>
             </ul>
 
         </div>
-    </div>
-    <div id="info">
-        <h4>Published on Feb 27, 2014</h4>
-        <p>How do you contribute to open source? In this video, I'll describe the easiest way to make a simple contribution to an open source project -- without using the command line, a text editor, "forking a repo", or even touching Git outside of Github. I'll also describe what kinds of contributions open source software projects are typically looking for. As an example, I use submitting a student solution to a web development exercise from The Odin Project, a free online curriculum for learning web development with Ruby on Rails. You can find more information about that project at http://theodinproject.com.</p>
+        <div id="video-buttons">
+            <img src="images/video-user.jpeg" id="t-user">
+            <a><h4 class="subscribe-view">The Odin Project</h4></a>
+            <button class="subscribe-view" id="subscribe-button"><span>Subscribe</span></button>
+            <span class="subscribe-view" id="subscribe-text">1203 subscribers</span> 
+            <p>How do you contribute to open source? In this video, I'll describe the easiest way to make a simple contribution to an open source project -- without using the command line, a text editor, "forking a repo", or even touching Git outside of Github. I'll also describe what kinds of contributions open source software projects are typically looking for. As an example, I use submitting a student solution to a web development exercise from The Odin Project, a free online curriculum for learning web development with Ruby on Rails. You can find more information about that project at http://theodinproject.com.</p>          
+        </div>
     </div>
     <div id="gif">
            <img src="images/loading.gif"><span>Loading...</span>
     </div>
-    <section id="bottom-navbars">
+</main>
+    <footer id="bottom-navbars">
     <div class="bottom-navbar" id="bottom-0">
         <ul>
             <li><img src="images/logo.png" alt="" id="yt"></li>
@@ -130,6 +133,6 @@
             <li><a href="#">Test new features</a></li>
         </ul>
     </div>
-    </section>
+    </footer>
 </body>
 </html>
