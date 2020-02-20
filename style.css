@@ -167,6 +167,7 @@ aside{
 }
 #video-container{
     margin-top: 1em;
+    text-align: center;
    
 }
 aside ul {
@@ -240,7 +241,7 @@ aside ul {
 }
 #bottom-navbars{
     background-color: white;
-    margin-top: 2%;
+    margin-top: 3%;
 }
 #auto-play-button {
     width: 4em;
@@ -276,9 +277,11 @@ aside ul {
 #sharing-btn{
     float: right;
     position: relative;
-    top: -2em;
+    top: -1.5em;
 }
 #video-container iframe{
- align-items: center;
-    width: auto;
+    display: inline-block;
+    flex-direction: row;
+    align-items: center;
+    width: 64%;
 }
