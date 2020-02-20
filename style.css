@@ -1,11 +1,11 @@
-  html{
-      background-color: lightgray;
-      margin-right: 3em;
-      min-width: 2659px;
-      max-width: 4000px;
-  }
+html {
+    background-color: lightgray;
+    min-width: 1040px;
+    width: 100%;
+}
 body {
     font-family: 'Roboto', sans-serif;
+    width: 100%;
 }
 nav {
     color: #A0A0A0;
@@ -13,6 +13,7 @@ nav {
     border-bottom: 1px solid #F9F9F9;
     background-color: white;
     width: 100%;
+    min-width: 1040px;
 }
 
 nav ul {
@@ -161,12 +162,12 @@ aside{
     float: right;
     background-color: white;
     margin-top: 1em;
-    right: 12%;
     position: relative;
-    width: 20em;
+    width: 17em;
 }
 #video-container{
     margin-top: 1em;
+   
 }
 aside ul {
     list-style: none;
@@ -189,12 +190,13 @@ aside ul {
     left: -2.5em;
 }
 #gif {
-    width: 74%;
+    width: auto;
     height: 10em;
     margin-left: 0px;
     text-align: center;
     line-height: 10em;
     background-color: white;
+    margin-right: 20em;
 }
 #gif span {
     position: relative;
@@ -229,15 +231,16 @@ aside ul {
     bottom: 0.3em;
 }
 #video-information{
-background-color: white;
-width: 74%;
+    background-color: white;
+    width: auto;
+    margin-right: 20em;
 }
 #auto-info{
     font-size: 0.5em;
 }
 #bottom-navbars{
     background-color: white;
-    margin-top: 3%;
+    margin-top: 2%;
 }
 #auto-play-button {
     width: 4em;
@@ -274,4 +277,8 @@ width: 74%;
     float: right;
     position: relative;
     top: -2em;
+}
+#video-container iframe{
+ align-items: center;
+    width: auto;
 }
