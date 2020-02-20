@@ -180,15 +180,16 @@ aside ul {
     font-size: 1.2em;
     text-align: center;
     position: relative;
-    bottom: 4em;
-    left: 1.5em;
+    bottom: 5em;
+    left: 4.2em;
+    display: block;
 }
 .image-text {
     font-size: 0.75em;
     text-align: center;
     position: relative;
-    bottom: 4em;
-    left: -2.5em;
+    bottom: 8em;
+    left: 15.5em;
 }
 #gif {
     width: auto;
@@ -241,7 +242,7 @@ aside ul {
 }
 #bottom-navbars{
     background-color: white;
-    margin-top: 3%;
+    margin-top: 21em;
 }
 #auto-play-button {
     width: 4em;
@@ -257,7 +258,7 @@ aside ul {
 #auto-play {
     position: relative;
     font-size: 1.6em;
-    left: 10.2em;
+    left: 9.2em;
     bottom: 0.6em;
 }
 #bottom-0{
