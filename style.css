@@ -19,6 +19,10 @@ nav {
     width: 100%;
 }
 
+#bottom-navbars i {
+    font-size: 1.5vw;
+}
+
 nav ul {
     display: grid;
     grid-template-columns: 1fr 3fr 2fr;
@@ -44,7 +48,7 @@ nav li {margin-top: 13px;}
     height: 24px;
 }
 
-#yt {
+.yt{
     margin-top: 10px;
     width: 9vw;
     max-width: 3em;
@@ -239,8 +243,9 @@ aside ul {
     margin-left: 0 !important;
 }
 .bigger-button {
-    font-size: 0.8vw;
-
+    font-size: 0.4vw;
+    height: 1.6vw;
+    vertical-align: bottom;
 }
 #video-information{
     background-color: white;
@@ -256,6 +261,7 @@ aside ul {
     position: relative;
     display: inline-block;
     top: 1em;
+    font-size: clamp(0em,2vw,2em);
 }
 #auto-play-button {
     width: clamp(0em, 3vw, 1.3em);
@@ -281,6 +287,7 @@ aside ul {
     border-radius: 100%;
     width: 4.6vw;
     max-width: 1.2em;
+    vertical-align: 6px;
 }
 #subscribe-button{
     height: 5vw;
@@ -301,7 +308,7 @@ aside ul {
 .logo i {
     font-size: clamp(0em, 5vw, 2em);
 }
-div#sharing-btn i {
+#sharing-btn i {
     font-size: clamp(0em, 2vw, 1em);
 }
 #sharing-btn span{
@@ -310,3 +317,7 @@ div#sharing-btn i {
 aside img{
     width: 13vw;
 }
+
+#bottom-navbars button {
+    min-height: 19px;
+} 
