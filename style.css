@@ -52,7 +52,6 @@ nav li {margin-top: 13px;}
 }
 
 .search {
-    max-width: 580px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     height: 30px;
@@ -66,7 +65,7 @@ input[type="search"] {
     border-radius: 2px 0 0 2px;
     border: 1px solid rgb(165, 165, 165);
     padding: 5px 10px;
-    width: 28vw;
+    width: 42vw;
     align-content: center;
 }
 
@@ -152,16 +151,14 @@ button:hover {
     font-size: clamp(0em, 2vw, 1em);
 }
 #video-buttons button{
-    background-color: red;
     display: block;
+    background-color: red;
     position: relative;
+    float: right;
+    clear: left;
+    top: -3em;
 }
-#video-buttons button span{
-color: white;
-position: relative;;
-bottom: 5px;
-font-size: 1.2em;
-}
+#video-buttons button span{color: white;position: relative;font-size: 1.2em;}
 #video-buttons #subscribe-text{
     position: relative;
     bottom: -0.5em;
@@ -229,7 +226,9 @@ aside ul {
 }
 .button-text {
     position: relative;
-    bottom: 5px;
+    font-size: 0.4vw;
+    top: -10px;
+    vertical-align: bottom;
 } 
 #bottom-1 li {
     margin-left: 1em;
@@ -241,9 +240,7 @@ aside ul {
     margin-left: 0 !important;
 }
 .bigger-button {
-    height: 2.75em;
-    position: relative;
-    bottom: 0.3em;
+    font-size: 0.4vw;
 }
 #video-information{
     background-color: white;
@@ -279,6 +276,8 @@ aside ul {
 }
 #bottom-0{
     border-bottom: solid lightgray;
+    width: auto;
+    font-size: 2vw;
 }
 #t-user-icon{
     border-radius: 100%;
@@ -288,7 +287,6 @@ aside ul {
 #subscribe-button{
     height: 5vw;
     max-height: 2.5em;
-    right: -65%;
 }
 #sharing-btn{
     float: right;
@@ -300,4 +298,6 @@ aside ul {
     flex-direction: row;
     align-items: center;
     width: 72%;
+    height: 15vh;
 }
+
