@@ -3,7 +3,7 @@ html {
     /*! min-width: 1040px; */
     
     /*! overflow: hidden; */
-    min-width: 300px;
+    min-width: 400px;
 }
 body {
     font-family: 'Roboto', sans-serif;
@@ -99,10 +99,10 @@ button:hover {
     top: -15px;
 }
     .user i{
-        font-size: 30px;
+        font-size: clamp(0em, 5vw, 2em);
         height: 5em;
         margin-right: 0.5em;
-}
+    }
 #video-navbar {
     list-style-type: none;
     margin: 0;
@@ -191,15 +191,14 @@ aside ul {
     text-align: end;
     position: relative;
     display: block;
-    bottom: 5.4vw;
-    right: 2vw;
+    bottom: 4em;
 }
 .image-text {
     font-size: clamp(0em, 1.1vw, 4em);
     text-align: center;
     position: relative;
-    bottom: 5.2vw;
-    right: -12.9vw;
+    bottom: 5em;
+    right: -13.7vw;
 }
 #gif {
     width: 72%;
@@ -240,7 +239,8 @@ aside ul {
     margin-left: 0 !important;
 }
 .bigger-button {
-    font-size: 0.4vw;
+    font-size: 0.8vw;
+
 }
 #video-information{
     background-color: white;
@@ -276,8 +276,6 @@ aside ul {
 }
 #bottom-0{
     border-bottom: solid lightgray;
-    width: auto;
-    font-size: 2vw;
 }
 #t-user-icon{
     border-radius: 100%;
@@ -300,4 +298,15 @@ aside ul {
     width: 72%;
     height: 15vh;
 }
-
+.logo i {
+    font-size: clamp(0em, 5vw, 2em);
+}
+div#sharing-btn i {
+    font-size: clamp(0em, 2vw, 1em);
+}
+#sharing-btn span{
+    font-size:clamp(0em, 2vw, 1em);
+    }
+aside img{
+    width: 13vw;
+}
