@@ -1,8 +1,5 @@
 html {
     background-color: lightgray;
-    /*! min-width: 1040px; */
-    
-    /*! overflow: hidden; */
     min-width: 400px;
 }
 body {
@@ -122,8 +119,7 @@ button:hover {
     background-color: transparent;
     border: none;
     cursor: pointer;
-}
-#like-dislike {
+    float: right;
 }
 #t-user{
     float: left;
@@ -143,6 +139,8 @@ button:hover {
     margin-left: 1.3em;
     bottom: 0.69em;
     font-size: clamp(0em, 2vw, 1em);
+    float: none;
+    top: unset;
 }
 #video-information h2 {
     margin-left: 10px;
@@ -181,8 +179,6 @@ aside{
 }
 #video-container{
     margin-top: 1em;
-    /*! text-align: center; */
-   
 }
 aside ul {
     list-style: none;
@@ -233,10 +229,7 @@ aside ul {
     top: -10px;
     vertical-align: bottom;
 } 
-#bottom-1 li {
-    margin-left: 1em;
-}
-#bottom-2 li {
+#bottom-2 li, #bottom-1 li {
     margin-left: 1em;
 }
 .doesnt-move {
@@ -293,17 +286,19 @@ aside ul {
     height: 5vw;
     max-height: 2.5em;
 }
-#sharing-btn{
-    float: right;
+#video-navbar i.material-icons, #video-navbar span
+{
     position: relative;
-    top: -1.5em;
+    top: -0.5em;
+    font-size: clamp(0em, 2vw, 1em);
+    display: initial;
 }
 #video-container iframe{
     /*! display: inline-block; */
     flex-direction: row;
     align-items: center;
     width: 72%;
-    height: 15vh;
+    height: 70vh;
 }
 .logo i {
     font-size: clamp(0em, 5vw, 2em);
