@@ -298,7 +298,7 @@ aside ul {
     flex-direction: row;
     align-items: center;
     width: 72%;
-    height: 70vh;
+    height: 50vh;
 }
 .logo i {
     font-size: clamp(0em, 5vw, 2em);
